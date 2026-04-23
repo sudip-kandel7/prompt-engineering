@@ -1,0 +1,222 @@
+/* Developer Theme Styles */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1e1e1e;
+    color: #f8f8f2;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #61dafb;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f8f8f2;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #3a3a3a;
+    color: #f8f8f2;
+    font-family: inherit;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #61dafb;
+    box-shadow: 0 0 5px rgba(97, 218, 251, 0.5);
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.save-btn {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+}
+
+.prompts-container {
+    margin-top: 40px;
+}
+
+.prompt-card {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.prompt-card h3 {
+    margin-top: 0;
+    color: #61dafb;
+    font-size: 1.2em;
+}
+
+.prompt-preview {
+    color: #cccccc;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.empty-message {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filters label {
+    margin: 0;
+    font-weight: bold;
+    color: #f8f8f2;
+}
+
+.filters select {
+    padding: 8px 12px;
+    background-color: #3a3a3a;
+    color: #f8f8f2;
+    border: 1px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.filters select:hover {
+    border-color: #61dafb;
+}
+
+.filters select:focus {
+    outline: none;
+    border-color: #61dafb;
+    box-shadow: 0 0 5px rgba(97, 218, 251, 0.5);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.card-header h3 {
+    margin: 0;
+    flex-grow: 1;
+    color: #61dafb;
+    font-size: 1.2em;
+}
+
+.rating-container {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.star {
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+    line-height: 1;
+}
+
+.star:hover {
+    color: #ffd700;
+    transform: scale(1.15);
+}
+
+.star.filled {
+    color: #ffd700;
+}
+
+.rating-info {
+    font-size: 13px;
+    color: #aaa;
+    font-style: italic;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
